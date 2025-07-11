@@ -1,0 +1,11 @@
+services:
+  telegram-interactive-bot:
+    image: chaoticjoy/tgibot:latest
+    container_name: telegram-interactive-bot
+    env_file:
+      - .env  # 也可以不用 volume 的方式
+    volumes:
+      - ./assets:/app/assets
+      # 可选，如果你希望用 volume 映射 .env，而不是 env_file:
+      # - ./.env:/app/.env
+    restart: always
