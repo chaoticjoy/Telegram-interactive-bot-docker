@@ -1,7 +1,7 @@
 # 介绍
-基于 https://github.com/MiHaKun/Telegram-interactive-bot⁠ 的docker版
+1. 基于 https://github.com/MiHaKun/Telegram-interactive-bot⁠ 的docker版
 
-集成了supervisor
+2. 集成了supervisor
 
 # 用法
 1. 下载整个项目
